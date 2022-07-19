@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Lung Disease Detection</title>
+</head>
+<body>
+	<h1 class="title">Lung Disease Detection</h1>
+	<p class="description">Utiliser l'intelligence artificielle pour détecter les maladies pulmonaires</p>
+	<form class="form wrapper" method="post" enctype="multipart/form-data">
+		<div>
+			<label for="image">
+				<img class="upload-img" src="src/file-upload.png">
+				CHOISIR UNE IMAGE
+				<input id="image" type="file" value="Choisir une image" name="image" accept="image/png, image/jpeg">
+			</label>
+			<p class="min">ou glisser et déposer l'image ici</p>
+		</div>
+		
+	</form>
+	<div class="warning wrapper">
+		<img class="warning-img" src="src/warning.png" />
+		<p class="warning">Ce logiciel ne doit en aucun cas prendre la place du <br>
+			médecin son rôle est d'aider le médecin dans ses <br>
+			hypothèses.
+		</p>
+	</div>
+
+</body>
+</html>
